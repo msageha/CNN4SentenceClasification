@@ -77,30 +77,22 @@ python3 test.py -test -model="hogehoge"
 
 * **Example1**
 ```
-[Text]
-```
-<span style="background-color: #FFFEFE">ブロッコリー</span> <span style="background-color: #FFF8F8">を</span> <span style="background-color: #FFFEFE">使っ</span> <span style="background-color: #FFFEFE">た</span> <span style="background-color: #FFF9F9">美味しい</span> <span style="background-color: #FFFEFE">おかず</span> <span style="background-color: #FFFEFE">の</span> <span style="background-color: #FFC8C8">レシピ</span> <span style="background-color: #FFF9F9">を</span> <span style="background-color: #FFC8C8">教え</span> <span style="background-color: #FFFEFE">て</span> <span style="background-color: #FFB2B2">ください</span> <span style="background-color: #FFFEFE">。</span> <span style="background-color: #FFFEFE">どうぞ</span> <span style="background-color: #FFFEFE">、</span> <span style="background-color: #FFEDED">参考</span> <span style="background-color: #FFEAEA">です</span> <span style="background-color: #FFFEFE">・</span> <span style="background-color: #FFF5F5">・・・・・・・・・・・・・・・・・・・・・</span>
-```
 [Label] Yahoo!知恵袋
 [Predict] Yahoo!知恵袋
 ```
+![Text](https://i.gyazo.com/fa025bdde243769baa9646c9b25c0934.png)
 
 * **Example2**
-```
-[Text]
-```
-<span style="background-color: #FFFDFD">「</span> <span style="background-color: #FFFEFE">この</span> <span style="background-color: #FFFBFB">回答</span> <span style="background-color: #FFFEFE">者</span> <span style="background-color: #FFFEFE">の</span> <span style="background-color: #FFFEFE">ほか</span> <span style="background-color: #FFFEFE">の</span> <span style="background-color: #FFFBFB">回答</span> <span style="background-color: #FFFDFD">を</span> <span style="background-color: #FFFEFE">見る</span> <span style="background-color: #FFFEFE">」</span> <span style="background-color: #FFFEFE">という</span> <span style="background-color: #FFFEFE">の</span> <span style="background-color: #FFFEFE">は</span> <span style="background-color: #FFFEFE">、</span> <span style="background-color: #FFD8D8">ヤフー</span> <span style="background-color: #FFFEFE">によって</span> <span style="background-color: #FFFDFD">選ば</span> <span style="background-color: #FFFEFE">れる</span> <span style="background-color: #FFFEFE">ん</span> <span style="background-color: #FFDEDE">です</span> <span style="background-color: #FFFDFD">か</span> <span style="background-color: #FFFDFD">？</span> <span style="background-color: #FFFEFE">本人</span> <span style="background-color: #FFFEFE">に</span> <span style="background-color: #FFFEFE">、</span> <span style="background-color: #FFFEFE">他</span> <span style="background-color: #FFFEFE">の</span> <span style="background-color: #FFFEFE">人</span> <span style="background-color: #FFFEFE">に</span> <span style="background-color: #FFC0C0">見せ</span> <span style="background-color: #FFFEFE">て</span> <span style="background-color: #FFFEFE">いい</span> <span style="background-color: #FFFDFD">か</span> <span style="background-color: #FFFEFE">、</span> <span style="background-color: #FFFEFE">連絡</span> <span style="background-color: #FFFEFE">は</span> <span style="background-color: #FFFEFE">いく</span> <span style="background-color: #FFFEFE">ん</span> <span style="background-color: #FFE0E0">です</span> <span style="background-color: #FFFDFD">か</span> <span style="background-color: #FFFDFD">？</span> <span style="background-color: #FFFEFE">連絡</span> <span style="background-color: #FFFEFE">は</span> <span style="background-color: #FFFEFE">来</span> <span style="background-color: #FFFBFB">ない</span> <span style="background-color: #FFE0E0">です</span> <span style="background-color: #FFFEFE">よ</span> <span style="background-color: #FFFEFE">。</span> <span style="background-color: #FFFDFD">でも</span> <span style="background-color: #FFFDFD">まぁ</span> <span style="background-color: #FFFEFE">変</span> <span style="background-color: #FFFEFE">な</span> <span style="background-color: #FFF2F2">回答</span> <span style="background-color: #FFFEFE">し</span> <span style="background-color: #FFFEFE">てる</span> <span style="background-color: #FFFEFE">わけ</span> <span style="background-color: #FFFDFD">じゃ</span> <span style="background-color: #FFFCFC">ない</span> <span style="background-color: #FFFEFE">し</span> <span style="background-color: #FFFCFC">いっか</span> <span style="background-color: #FFFCFC">〜</span>
 ```
 [Label] Yahoo!知恵袋
 [Predict] Yahoo!ブログ
 ```
+![Text](https://i.gyazo.com/0eeeb7243d57b7517d368db35e85fe9a.png)
+
 
 * **Example3**
-```
-[Text]
-```
-<span style="background-color: #FFFEFE">ｋｉｎｋｉ</span> <span style="background-color: #FFFEFE">が</span> <span style="background-color: #FFF4F4">ツアー</span> <span style="background-color: #FFFEFE">する</span> <span style="background-color: #FFFEFE">よ</span> <span style="background-color: #FFF4F4">！</span> <span style="background-color: #FFEEEE">！！！！！！！！</span> <span style="background-color: #FFF8F8">姫</span> <span style="background-color: #FFFEFE">が</span> <span style="background-color: #FFF6F6">住ん</span> <span style="background-color: #FFECEC">でる</span> <span style="background-color: #FFFDFD">大分</span> <span style="background-color: #FFFEFE">県</span> <span style="background-color: #FFFEFE">に</span> <span style="background-color: #FFFEFE">も</span> <span style="background-color: #FFFDFD">くる</span> <span style="background-color: #FFFEFE">よ</span> <span style="background-color: #FFFDFD">！</span> <span style="background-color: #FF8080">！！！！！！</span> <span style="background-color: #FFFCFC">ファン</span> <span style="background-color: #FFFEFE">クラ</span> <span style="background-color: #FFFEFE">入っ</span> <span style="background-color: #FFFEFE">て</span> <span style="background-color: #FFFCFC">ゲット</span> <span style="background-color: #FFF9F9">しよ</span> <span style="background-color: #FFF9F9">！</span> <span style="background-color: #FFF9F9">！</span> <span style="background-color: #FFF9F9">！</span> <span style="background-color: #FFF9F9">！</span> <span style="background-color: #FFFEFE">誰</span> <span style="background-color: #FFF9F9">か</span> <span style="background-color: #FFFEFE">一緒</span> <span style="background-color: #FFFEFE">に</span> <span style="background-color: #FFFEFE">いき</span> <span style="background-color: #FFFEFE">ましょ</span> <span style="background-color: #FFFBFB">！</span> <span style="background-color: #FFFBFB">！</span><br>
 ```
 [Label] Yahoo!ブログ
 [Predict] Yahoo!ブログ
 ```
+![Text](https://i.gyazo.com/b38693d63b29a1f4de193fc5fc325ef6.png)
