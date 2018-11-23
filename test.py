@@ -38,8 +38,8 @@ def tokenizer(text):
 
 #Fieldクラス
 TEXT = data.Field(sequential=True, tokenize=tokenizer, lower=True, include_lengths=True, batch_first=True)
-LABEL = data.Field(sequential=False, use_vocab=True)
-FILE = data.Field(sequential=False, use_vocab=True)
+LABEL = data.LabelField(sequential=False)
+FILE = data.LabelField(sequential=False)
 
 #データの読み込み
 dataset = data.TabularDataset(path='./document.tsv', format='tsv', fields=[('Text', TEXT), ('Label', LABEL), ('File', FILE)], skip_header=True)

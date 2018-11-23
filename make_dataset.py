@@ -72,7 +72,8 @@ def load_c_xml(path='./C-XML/VARIABLE'):
             dataset_document.append([texts, label, file])
             for sentence in extract_sentence(root):
                 sentence = sentence.replace('\n', '')
-                dataset_sentence.append([sentence, label, file])
+                if sentence.strip():
+                    dataset_sentence.append([sentence, label, file])
     return dataset_document, dataset_sentence
 
 def dump(dataset, file_name):
@@ -82,7 +83,7 @@ def dump(dataset, file_name):
 
 def main():
     dataset_document, dataset_sentence = load_c_xml()
-    dump(dataset_document, file_name='document.tsv')
+    # dump(dataset_document, file_name='document.tsv')
     dump(dataset_sentence, file_name='sentence.tsv')
 
 
